@@ -1,0 +1,10 @@
+# Example configuration
+model: "swin_v2_s"
+log_dir: "./logs/swin_v2_s"
+image_size: 240
+num_epochs: 30
+learning_rate: 0.01
+batch_size: 64
+train_val_split: 0.7
+seed: 42
+device: "cuda:1"
